@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+   
+
+         
+            
+        }
+       
+        header{
+            background-color: #ccc;
+            color: #ff0000;
+            text-align: center;
+            padding: 20px;
+            
+        }
+        header:hover{
+            background-color: green;
+            color: #ff0;}
+        .container{
+           background-color: #ff0;
+        }
+       
+        nav{
+            background-color: #000;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            padding: 30px;
+            justify-content: center;
+        }
+        nav ul li a{
+            
+            text-decoration: none;
+            padding: 10px;
+            color: #ff0000;
+        }
+        nav ul li a:hover{
+            background-color: white;
+            color: #0000ff;
+        }
+        .content{
+            background-color: #ccc;
+            padding: 100px;
+        }
+        .content .main{
+            background-color: #00ff00;
+            padding: 20px;
+        }
+        .content .main:hover{
+            background-color: #ff0000;
+            color: #fff;
+        }
+        footer{
+            background-color: #84a87f;
+            text-align: center;
+            padding: 20px;
+            margin-top: 10px;
+        }
+        footer:hover{
+            background-color: #ff0000;
+            color: #fff;
+        }
+        .menu{
+           color: black;
+           border: none;
+        }
+        .menu:hover{
+            background-color:green;
+            color: #ff0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>This is a header</h1>
+    </header>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Info</a></li>
+                <li><a href="#" >Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="main"> this is the main content</div>
+    </div>
+    <div>
+        <footer>
+            <h2>This is a footer</h2>
+        </footer>
+    </div>
+    <br>
+<button type="button" class="menu" onclick="alert('hello world')">Send</button>
+</body>
+</html>
